@@ -95,11 +95,11 @@ function tsp_hk(distance_matrix) {
 
 function compare(distMat) {
     const startTimeHK = Date.now();
-    const hkAns = tsp_heldKarp(distMat);
+    const hkAns = tsp_hk(distMat);
     const endTimeHK = Date.now();
 
     const startTimeLS = Date.now();
-    const lsAns = tsp_localSearch(distMat);
+    const lsAns = tsp_ls(distMat);
     const endTimeLS = Date.now();
 
     return {
