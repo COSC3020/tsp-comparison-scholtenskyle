@@ -103,7 +103,7 @@ function compare(distMat) {
     const endTimeLS = Date.now();
 
     return {
-        HeldKarp: { result: hkResult, time: endTimeHK - startTimeHK },
-        LocalSearch: { result: lsResult, time: endTimeLS - startTimeLS },
+        HeldKarp: { result: hkAns, time: endTimeHK - startTimeHK },
+        LocalSearch: { result: lsAns, time: endTimeLS - startTimeLS },
     };
 }
