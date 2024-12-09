@@ -9,7 +9,7 @@ function runTests() {
         [[0, 1], [1, 0]],
         [[0, 1, 2], [2, 0, 2], [0, 2, 1]],
         [[0, 4, 4, 5, 1], [2, 0, 3, 6, 6], [1, 4, 6, 5, 8], [2, 7, 5, 1, 3], [4, 3, 7, 2, 0]],
-        Array.from({ length: 7 }, () => Array.from( { length: 7 }, () => Math.floor(Math.random() * 49))),
+        Array.from({ length: 7 }, () => Array.from( { length: 7 }, () => Math.floor(Math.random() * 40))),
     ];
 
     console.log("Test Results");
