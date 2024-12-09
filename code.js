@@ -93,13 +93,13 @@ function tsp_hk(distance_matrix) {
     return result;
 }
 
-function compare_tsp_methods(distMat) {
+function compare(distMat) {
     const startTimeHK = Date.now();
-    const hkAns = tsp_heldKarp(distMatrix);
+    const hkAns = tsp_heldKarp(distMat);
     const endTimeHK = Date.now();
 
     const startTimeLS = Date.now();
-    const lsAns = tsp_localSearch(distMatrix);
+    const lsAns = tsp_localSearch(distMat);
     const endTimeLS = Date.now();
 
     return {
