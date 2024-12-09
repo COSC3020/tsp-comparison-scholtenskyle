@@ -28,3 +28,13 @@ Test Results
   HeldKarp: { result: 157, time: 12 },
   LocalSearch: { result: 401, time: 0 }
 }
+
+{
+  HeldKarp: { result: 243, time: 4032 },
+  LocalSearch: { result: 862, time: 0 }
+}
+
+{
+  HeldKarp: { result: -, time: - },
+  LocalSearch: { result: 300762, time: 5612 }
+}
