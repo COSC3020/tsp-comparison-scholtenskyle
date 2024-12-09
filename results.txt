@@ -1,1 +1,30 @@
+Test Results
+{
+  HeldKarp: { result: 0, time: 1 },
+  LocalSearch: { result: 0, time: 0 }
+}
 
+{
+  HeldKarp: { result: 0, time: 0 },
+  LocalSearch: { result: 0, time: 0 }
+}
+
+{
+  HeldKarp: { result: 1, time: 0 },
+  LocalSearch: { result: 1, time: 0 }
+}
+
+{
+  HeldKarp: { result: 1, time: 0 },
+  LocalSearch: { result: 3, time: 0 }
+}
+
+{
+  HeldKarp: { result: 7, time: 0 },
+  LocalSearch: { result: 10, time: 0 }
+}
+
+{
+  HeldKarp: { result: 157, time: 12 },
+  LocalSearch: { result: 401, time: 0 }
+}
