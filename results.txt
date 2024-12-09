@@ -31,7 +31,7 @@ Test Results
 
 {
   HeldKarp: { result: 243, time: 4032 },
-  LocalSearch: { result: 862, time: 0 }
+  LocalSearch: { result: 862, time: 3841 }
 }
 
 {
