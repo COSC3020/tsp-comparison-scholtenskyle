@@ -2,7 +2,6 @@ const fs = require('fs');
 
 function tsp_ls(distance_matrix) {
     const len = distance_matrix.length;
-
     if ((len == 0) || (len == 1)) {
         return 0; 
     }
