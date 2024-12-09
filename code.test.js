@@ -15,7 +15,6 @@ function runTests() {
     console.log("Test Results");
 
     testCases.forEach((dm, i) => {
-        console.log('Test #${i + 1}');
         const results = compare(dm);
         console.log(results);
         console.log();
